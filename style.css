@@ -1,0 +1,107 @@
+/* Styles for the entire website */
+
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #008C45;
+    color: #ffffff;
+    text-align: left;
+    padding: 30px;
+    font: 1em montserrat-regular;
+    font-size: medium;
+    font-weight: bolder;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #CD212A;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    padding: 25px;
+    margin: 90px;
+    border-radius: 50px;
+    background: #000000;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    
+}
+
+section {
+    padding: 20px;
+}   
+
+img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 625px;
+}
+
+#uniquecsspart{
+    background-color: #e3f542;
+    text-decoration: #d62a0f;
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+    font-family: "Times New Roman";
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.thoughts{
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.survey{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width:275px;
+}
+.page{
+    display: inline-block;
+    flex-direction: row;
+    justify-content:right;
+    align-items:flex-end;
+}
+.feedback{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    }
